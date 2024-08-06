@@ -1,0 +1,52 @@
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar Ether</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+<script src="web3.min.js"></script>
+
+
+</head>
+<body>
+    <div class="container">
+        <h1>Enviar Token</h1>
+        <button id="connectWallet" >Conectar Billetera</button> <spam>token:</spam> <spam id="balance">0</spam>
+        <div class="form">
+            <input type="text" id="recipientAddress" required  placeholder="Dirección del destinatario">
+            <input type="number" min="0.00000001" id="amount" required placeholder="Cantidad en Token">
+            <button type="submit" id="sendToken"><i class="fas fa-paper-plane"></i> Enviar Token</button>
+            <!-- <input type="submit"  id="sendToken"value=" Enviar Token"> -->
+        </div>
+    </div>
+    <div class="container">
+        <h1>Crear NFT</h1>
+       
+        <div class="form">
+            <input type="Number" id="strength" required  placeholder="Dirección del destinatario">
+            <input type="number" id="agility" required placeholder="Cantidad en Token">
+            <input type="Number" id="intelligence" required  placeholder="Dirección del destinatario">
+            <input type="number"id="rarity" required placeholder="Cantidad en Token">
+         <select name="rarity" class id="raritySelect" >
+            <option value="Common">Common</option>
+            <option value="Uncommon">Uncommon</option>
+            <option value="Rare">Rare</option>
+            <option value="Epic">Epic</option>
+            <option value="Legendary">Legendary</option>
+         </select>
+            <button type="submit" id="mintMartyr"><i class="fas fa-star-half-alt"></i> Crear Martil</button>
+            <!-- <input type="submit"  id="sendToken"value=" Enviar Token"> -->
+        </div>
+    </div>
+
+
+
+    <script  type="module" src="scripts.js"></script>
+</body>
+</html>
