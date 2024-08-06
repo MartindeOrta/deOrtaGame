@@ -41,12 +41,6 @@ Pantalla de Combate: Permite desafiar a otros jugadores y ver los resultados de 
 Mercado: Interfaz para comprar y vender guerreros.
 Misiones y Torneos: Interfaz para ver y participar en misiones y torneos.
 3. Backend
-API: Interacciones con la blockchain y servicios externos (Chainlink VRF).
+a definir 
 Base de Datos: Almacena información relevante del juego (opcional, para datos no críticos).
-Pasos para Empezar:
-Configura el entorno de desarrollo: Instala Node.js, Truffle Suite, Ganache y Metamask.
-Desarrolla los contratos inteligentes: Empieza con los contratos ERC-721 y ERC-20.
-Desarrolla la frontend: Usa React y Web3.js para crear la interfaz de usuario.
-Integra Chainlink VRF: Para asegurar la aleatoriedad verificable en el juego.
-Prueba en una red de prueba: Despliega y prueba tus contratos en una red de prueba como Ropsten o Rinkeby.
-Despliega en la mainnet: Una vez que todo esté funcionando bien, despliega tu juego en la red principal de Ethereum.
+
