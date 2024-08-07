@@ -189,6 +189,25 @@ export const Abi=[
         "anonymous": false,
         "inputs": [
             {
+                "indexed": false,
+                "internalType": "uint256",
+                "name": "_fromTokenId",
+                "type": "uint256"
+            },
+            {
+                "indexed": false,
+                "internalType": "uint256",
+                "name": "_toTokenId",
+                "type": "uint256"
+            }
+        ],
+        "name": "BatchMetadataUpdate",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
                 "indexed": true,
                 "internalType": "uint256",
                 "name": "id",
@@ -199,9 +218,28 @@ export const Abi=[
                 "internalType": "address",
                 "name": "owner",
                 "type": "address"
+            },
+            {
+                "indexed": false,
+                "internalType": "string",
+                "name": "tokenURI",
+                "type": "string"
             }
         ],
         "name": "MartyrMinted",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "internalType": "uint256",
+                "name": "_tokenId",
+                "type": "uint256"
+            }
+        ],
+        "name": "MetadataUpdate",
         "type": "event"
     },
     {
@@ -392,6 +430,11 @@ export const Abi=[
             {
                 "internalType": "string",
                 "name": "rarity",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "tokenURI",
                 "type": "string"
             }
         ],

@@ -1,0 +1,23 @@
+{
+    "name": "MartyrNFT 00000000000",
+    "description": "A unique MartyrNFT with specific attributes.",
+    "image": "https://scarlet-labour-leopon-223.mypinata.cloud/ipfs/QmfFo1ri1mLbYFSJhyeR49yp81YmFSaAYCByuPagqtAXEg", 
+    "attributes": [
+      {
+        "trait_type": "strength",
+        "value": 100000
+      },
+      {
+        "trait_type": "agility",
+        "value": 100000
+      },
+      {
+        "trait_type": "intelligence",
+        "value": 100000
+      },
+      {
+        "trait_type": "rarity",
+        "value": "Legendary"
+      }
+    ]
+  }

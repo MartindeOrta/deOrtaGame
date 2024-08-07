@@ -18,12 +18,12 @@ const getMartyr = async (tokenId) =>{ {
 }}
 getMartyr(0)
 
-async function mintMartyr(strength, agility, intelligence, rarity) {
+async function mintMartyr(strength, agility, intelligence, rarity,uri) {
     try {
         await ethereum.request({method: 'eth_requestAccounts'});
         account = await web3.eth.getAccounts();
-        console.log(account)//cuenta
-        await contract.methods.mintMartyr(account[0], strength, agility, intelligence, rarity).send({ from: account[0] });
+        console.log(account[0])//cuenta
+       await contract.methods.mintMartyr(account[0], strength, agility, intelligence, rarity,uri).send({ from: account[0] });
         console.log('Martyr mintado exitosamente');
     } catch (error) {
         console.error('Error mintando el Martyr:', error);
@@ -35,11 +35,13 @@ CrearMartyr.addEventListener("click", _ =>{
     let fuerza =document.getElementById("strength").value
     let agility =document.getElementById("agility").value
     let intelligence =document.getElementById("intelligence").value
+    let uri =document.getElementById("uri").value
     let raritySelect =document.getElementById("raritySelect")
     let rariryOpcion=raritySelect.options[raritySelect.options.selectedIndex].value  
     console.log( rariryOpcion)
     console.log(fuerza+agility+ intelligence)
-    mintMartyr(fuerza,agility,intelligence,rariryOpcion)
+    console.log(uri)
+    mintMartyr(fuerza,agility,intelligence,rariryOpcion,uri)
 
 })
 
