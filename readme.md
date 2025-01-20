@@ -44,3 +44,32 @@ Misiones y Torneos: Interfaz para ver y participar en misiones y torneos.
 a definir 
 Base de Datos: Almacena información relevante del juego (opcional, para datos no críticos).
 
+
+
+
+Ejemplo de json 
+
+{
+  "name": "MartyrNFT 00000000000",
+  "description": "A unique MartyrNFT with specific attributes.",
+  "image": "https://scarlet-labour-leopon-223.mypinata.cloud/ipfs/QmdfBb1NLd67kp8hJhJnAh2BHcKBP88NRQLn4z1qghutAc",
+  "attributes": [
+    {
+      "trait_type": "strength",
+      "value": 100000
+    },
+    {
+      "trait_type": "agility",
+      "value": 100000
+    },
+    {
+      "trait_type": "intelligence",
+      "value": 100000
+    },
+    {
+      "trait_type": "rarity",
+      "value": "Legendary"
+    }
+  ]
+}
+
