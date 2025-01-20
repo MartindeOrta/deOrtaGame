@@ -1,8 +1,8 @@
 
 web3 =  new Web3(window.ethereum)
 var account = 0;
-import { Abi } from '/MartyrNFT/Abi.js';
-import { MartyrNFT } from '/MartyrNFT/contractAddress.js';
+import { Abi } from 'deOrtaGame/MartyrNFT/Abi.js';
+import { MartyrNFT } from 'deOrtaGame/MartyrNFT/contractAddress.js';
 const contract = new web3.eth.Contract(Abi, MartyrNFT.contrato);
 console.log(Abi)
 
