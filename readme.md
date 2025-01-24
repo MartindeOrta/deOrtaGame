@@ -1,4 +1,4 @@
-
+EL contrato esta desplegado en la testNet Sepolia
 
 Idea de Proyecto: deOrtaGame
 Descripción del Juego:
