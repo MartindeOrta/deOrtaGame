@@ -1,6 +1,6 @@
 
-import { Abi } from '/MartyrNFT/Abi.js';
-import { MartyrNFT } from '/MartyrNFT/contractAddress.js';
+import { Abi } from 'https://martindeorta.github.io/MartyrNFT/Abi.js';
+import { MartyrNFT } from 'https://martindeorta.github.io/MartyrNFT/contractAddress.js';
 var abi= Abi;
 var martyrNFT= MartyrNFT;
 console.log(Abi)
