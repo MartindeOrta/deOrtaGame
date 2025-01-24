@@ -1,5 +1,5 @@
-EL contrato esta desplegado en la testNet Sepolia
-Ahora lo unico que hace es desplejar un token NFT
+EL contrato esta desplegado en la testNet Sepolia.
+Ahora lo unico que hace es desplejar un token NFT.
 
 Idea de Proyecto: deOrtaGame
 Descripción del Juego:
